@@ -1,0 +1,55 @@
+.Abouthead{
+    height: 543px;
+    display: flex;
+}
+
+.des{
+    height: 100px;
+    width: 100px;
+    margin-left: 108px;
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    height: 100px;
+    width: 300px;
+    margin-bottom: 20px;
+    display: flex;
+    color: #009DFF;
+}
+.bold{
+    height: 140px;
+    width: 360px;
+    display: flex;
+    font-size: 50px;
+    text-align: start;
+    margin-bottom: 30px;
+}
+.para{
+    height: 100px;
+    width: 469px;
+    font-size: 18px;
+    display: flex;
+    color: grey;
+}
+.learn{
+    height: 100px;
+    /* width: 300px; */
+    margin-top: 50px;
+    display: flex;
+    color: gray;
+}
+.learn:hover{
+    color: #009DFF;
+    transition:0.5s all;
+}
+.image{
+    height: 100px;
+    width: 1000px;
+    gap: 9px;
+    display: flex;
+    justify-content: flex-end;
+}
+.img2{
+    margin-top: 38px;
+}

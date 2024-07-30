@@ -1,0 +1,55 @@
+.Foodhead{
+    height: 543px;
+    display: flex;
+}
+
+.fdes{
+    height: 100px;
+    width: 100px;
+    margin-left: 108px;
+    display: flex;
+    flex-direction: column;
+}
+.df{
+    height: 100px;
+    width: 300px;
+    margin-bottom: 20px;
+    display: flex;
+    color: #009DFF;
+}
+.fb{
+    height: 140px;
+    width: 434px;
+    display: flex;
+    font-size: 50px;
+    text-align: start;
+    margin-bottom: 30px;
+}
+.fpara{
+    height: 100px;
+    width: 469px;
+    font-size: 18px;
+    display: flex;
+    color: grey;
+}
+.flearn{
+    height: 100px;
+    /* width: 300px; */
+    margin-top: 50px;
+    display: flex;
+    color: gray;
+}
+.flearn:hover{
+    color: #009DFF;
+    transition:0.5s all;
+}
+.foodimg{
+    height: 100px;
+    width: 645px;
+    gap: 9px;
+    display: flex;
+    justify-content: flex-end;
+}
+.fd2{
+    margin-top: 38px;
+}

@@ -1,0 +1,72 @@
+.Footerhead{
+    width: 100%;
+    height: 241px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.res{
+    height: 146px;
+    width: 73%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(138, 136, 136);
+    align-items: center;
+}
+.res p{
+    height: 200px;
+    width: 79%;
+    display: flex;
+    font-size: 39px;
+    font-weight: 300;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 41px;
+}
+
+
+
+.res button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: 2px 2px 9px gray; */
+    border: 1px solid rgb(224, 222, 222);
+    font-family: 'Poppins', sans-serif; 
+    background-color: #009DFF;
+    color: rgb(255, 255, 255);
+    /* margin-top: 15px; */
+    border-radius: 25px;
+    margin-right: 61px;
+    width: 252px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 14px;
+    border: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.res button:hover{
+    background-color: rgb(255, 255, 255);
+      color: #009DFF;
+      border: 1px solid #009DFF;
+      transition:0.5s all;
+    }
+
+.ima{
+    height: 100%;
+    display: flex;
+    margin-top: 137px;
+}
+.imf1{
+    height: 90px;
+    width: 100%;
+}
+.imf1 img{
+    height: 252px;
+    width: 100%;
+}

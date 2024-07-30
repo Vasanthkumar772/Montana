@@ -1,0 +1,289 @@
+.Roomhead{
+    height: 100%;
+}
+.room1{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.room1 p{
+    height: 100px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #009DFF;
+}
+.room1 h1{
+    height: 100px;
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.room2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+}
+.room3{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.ki1{
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+    position: relative;
+}
+.ki1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: saturate(0.2);
+    filter: brightness(0.5);
+}
+.ki2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: saturate(0.2);
+    filter: brightness(0.5);
+}
+.ki3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: saturate(0.2);
+    filter: brightness(0.5);
+}
+.ki4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: saturate(0.2);
+    filter: brightness(0.5);
+}
+.ki2{
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+    position: relative;
+}
+.ki3{
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+    position: relative;
+}
+.ki4{
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+    position: relative;
+}
+.ki1 img:hover{
+     transform: scale(1.1);
+     transition: 0.5s;
+     z-index: 9999;
+}
+.ki2 img:hover{
+     transform: scale(1.1);
+     transition: 0.5s;
+     z-index: 9999;
+}
+.ki4 img:hover{
+     transform: scale(1.1);
+     transition: 0.5s;
+     z-index: 9999;
+}
+.ki3 img:hover{
+     transform: scale(1.1);
+     transition: 0.5s;
+      z-index: 9999;
+}
+.room3 img{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    opacity: 85%;
+    background-color: black;
+    z-index: 9999;
+}
+.room4{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 526px;
+    left: 68px;
+    align-items: flex-start;
+}
+.r1{
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+    z-index: 9999;
+}
+.r2{
+    font-size: 29px;
+    color: white;
+    font-weight: 300;
+    z-index: 9999;
+}
+
+.room5{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 588px;
+    left: 690px;
+    align-items: flex-start;
+}
+.r3{
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+    z-index: 9999;
+}
+.r4{
+    font-size: 29px;
+    color: white;
+    font-weight: 300;
+    z-index: 9999;
+}
+.room6{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 245px;
+    left: 68px;
+    align-items: flex-start;
+}
+.r5{
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+    z-index: 9999;
+}
+.r6{
+    font-size: 29px;
+    color: white;
+    font-weight: 300;
+    z-index: 9999;
+}
+.room7{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 301px;
+    left: 699px;
+    align-items: flex-start;
+}
+.r7{
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+    z-index: 9999;
+}
+.r8{
+    font-size: 29px;
+    color: white;
+    font-weight: 300;
+    z-index: 9999;
+}
+.o1{
+    height: 395px;
+    width: 50%;
+    position: relative;
+    bottom: 1024px;
+    background-color: black;
+    opacity: 60%;
+}
+.o2{
+    height: 395px;
+    width: 50%;
+    position: relative;
+    bottom: 1419px;
+    left: 632px;
+    background-color: black;
+    opacity: 60%;
+}
+.o3{
+    height: 395px;
+    width: 50%;
+    position: relative;
+    bottom: 1419px;
+    background-color: black;
+    opacity: 60%;
+}
+.o4{
+    height: 395px;
+    width: 50%;
+    position: relative;
+    bottom: 1814px;
+    left: 631px;
+    background-color: black;
+    opacity: 60%;
+}
+.ki1 img:hover + .b1{
+    opacity: 1;
+    background-color: aqua;
+}
+.b1{
+    font-size: 15px;
+    color: white;
+    /* display: none; */
+    opacity: 0;
+    position: relative;
+    /* bottom: 2309px; */
+    left: 400px;  
+    bottom: 50px;
+    font-weight: 300;
+    z-index: 9999;
+    background-color: #009DFF;
+}
+.b1:hover{
+    display: block; 
+     opacity: 1;
+}
+.b2{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    bottom: 2330px;
+    left: 529px; 
+    font-weight: 300;
+    z-index: 9999;
+}
+.b3{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    bottom: 1949px;
+    right: 100px;  
+    font-weight: 300;
+    z-index: 9999;
+}
+.b4{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    bottom: 1968px;
+    left: 529px; 
+    font-weight: 300;
+    z-index: 9999;
+}
