@@ -1,12 +1,18 @@
 import Homerouter from './Router/Homerouter';
 import './App.css';
+// import BurgerMenu from './BurgerMenu';
 
 function App() {
   return (
     <div className="App">
-      <Homerouter/>
-      
+      <header>
+        {/* <BurgerMenu /> */}
+        <Homerouter/>
+      </header>
+     
     </div>
+      
+    
   );
 }
 

@@ -156,3 +156,23 @@
     justify-content: center;
     align-items: center;
 }
+@media (max-width: 1200px){
+    .fot{
+        margin-left: 187px;
+        gap: 3px;
+    }
+}
+@media (max-width: 1200px){
+    .footer{
+        height: 636px;
+        flex-direction: column;
+    }
+    .fot{
+        flex-direction: column;
+        gap: 70px;
+
+    }
+    .fot1{
+        margin-right: 247px;
+    }
+}

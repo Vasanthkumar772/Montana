@@ -287,3 +287,45 @@
     font-weight: 300;
     z-index: 9999;
 }
+@media (max-width: 1200px){
+    .room4{
+        bottom: 349px;
+    }
+    .room5{
+        bottom: 407px;
+        left: 476px;
+    }
+    .room6{
+        bottom: 214px;
+    }
+    .room7{
+        left: 476px;
+        bottom: 280px;
+    }
+
+}
+@media (max-width: 600px){
+    .room3{
+        flex-direction: column;
+    }
+    .ki1{
+        width: 100%;
+    }
+    .ki2{
+        width: 100%;
+    }
+    .ki3{
+        width: 100%;
+    }
+    .ki4{
+        width: 100%;
+    }
+    .room5{
+        bottom: 800px;
+        left: 66px;
+    }
+    .room7{
+        left: 67px;
+        bottom: 771px;
+    }
+}

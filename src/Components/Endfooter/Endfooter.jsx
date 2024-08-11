@@ -31,8 +31,7 @@ const Footer = () => {
         <div className="fot4">
            <h2>NAVIGATION</h2>
            <div className="fot3">
-            <p>Home
-            </p>
+            <p>Home</p>
             <p>Rooms</p>
             <p>About</p>
             <p>News</p>

@@ -53,3 +53,35 @@
 .img2{
     margin-top: 38px;
 }
+@media (max-width: 1200px){
+    .Abouthead{
+        flex-direction: column;
+        height: 956px;
+    }
+    .image{
+        margin-top: 363px;
+        margin-left: 81px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+}
+@media (max-width: 600px){
+    .Abouthead{
+        position: relative;
+        right: 68px;
+        height: 1745px;
+    }
+    .bold{
+        font-size: 40px;
+    }
+    .para{
+        font-size: 13px;
+    }
+    .img1 img{
+        height: 257px;
+    }
+    .img2 img{
+        height: 269px ;
+    }
+}

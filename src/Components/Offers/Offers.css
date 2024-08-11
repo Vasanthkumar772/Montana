@@ -116,3 +116,46 @@ background-color: #009DFF;
   color: #ffffff;
   transition:0.5s all;
 }
+@media (max-width: 1200px){
+    .off1{
+        width: 410px;
+    }
+    .off1 img{
+        /* width: 100px; */
+        height: 324px;
+
+    }
+    .hed{
+        font-size: 30px;
+    }
+    .p1{
+        font-size: 19px;
+    }
+    
+}
+@media (max-width: 600px){
+    .offerimg{
+        flex-direction: column;
+            height: 428px;
+            width: 459px;
+            display: flex;
+            margin-top: 41px;
+            /* flex-direction: column; */
+            justify-content: center;
+            align-items: center;
+    }
+    .off1{
+        height: 590px;
+
+    }
+    .offer{
+        position: relative;
+        bottom: 800px;
+    }
+    .offerhead {
+        height: 1276px;
+        display: flex;
+        flex-direction: column;
+    }
+
+}

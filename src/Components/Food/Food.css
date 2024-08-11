@@ -53,3 +53,33 @@
 .fd2{
     margin-top: 38px;
 }
+@media (max-width: 1200px){
+    .Foodhead{
+        flex-direction: column;
+        height: 817px;
+    }
+    .fdes{
+        margin-top: 418px;
+    }
+    .fd1 img{
+        width: 189px;
+    }
+    .fd2 img{
+        width: 189px;
+    }
+    .foodimg{
+        width: 395px;
+        height: 15px;
+    }
+    .df{
+        width: 452px;
+    }
+    .fb{
+        width: 464px;
+        font-size: 38px;
+    }
+    .fpara{
+        font-size: 14px;
+    }
+}
+

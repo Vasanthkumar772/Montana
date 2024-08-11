@@ -70,3 +70,36 @@
     height: 252px;
     width: 100%;
 }
+@media (max-width: 1200px){
+    .res{
+        flex-direction: column;
+        height: 220px;
+        width: 68%;
+    }
+    .res button{
+        margin-bottom: 46px;
+        margin-left: 47px;
+    }
+}
+@media(max-width:600px){
+    .res p {
+        font-size: 24px;
+    }
+    .res{
+        height: 179px;
+        width: 91%;
+        position: relative;
+        /* top: 629px; */
+
+    }
+    .ima{
+        flex-direction: column;
+        gap: 161px;
+    }
+    .Footerhead{
+        height: 1483px;
+    }
+    .imf1 img{
+        height: 398px;
+    }
+}
